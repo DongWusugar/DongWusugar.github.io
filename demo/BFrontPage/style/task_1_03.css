@@ -1,0 +1,51 @@
+body{
+	padding:20px;
+	font-family:"微软雅黑";
+	font-size:15px;
+}
+
+.main_wrapper{
+	margin:0px auto;/*表示上下边界为0，左右则根据宽度自适应相同值（即居中）*/
+	padding:20px;
+	background:#eee;
+	border:1px solid #999;
+	overflow:auto;/*高度随着内容自动向下延伸*/
+}
+
+.left{
+	float:left;
+	padding:20px;
+	width:160px;/*这里定义的是left 盒子里面内容的高度，真实的高度是要加上margin,border,padding的*/
+	border:1px solid #999;
+}
+.TeamLogo{
+	float:left;
+}
+.TeamName{
+	floar:left;
+	padding-left:20px;
+	font-size:14px;
+	font-weight:bold;
+}
+.right{
+	float:right;
+	width:120px;
+	overflow:auto;
+	padding:20px;
+	border:1px solid #999;
+}
+.plogo{
+	border:1px solid #999;
+}
+
+.middle{
+	margin:0px 180px auto 220px;
+	float:center;
+	border: 1px solid #999;
+}
+
+
+
+
+
+
